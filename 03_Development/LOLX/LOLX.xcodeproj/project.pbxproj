@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		156B25FC1F40AD490099580B /* WGViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156B25FB1F40AD490099580B /* WGViewController.swift */; };
+		156B25FE1F40ADD10099580B /* WGTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156B25FD1F40ADD10099580B /* WGTabBarController.swift */; };
+		156B26021F40B6490099580B /* WGMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156B26011F40B6490099580B /* WGMainViewController.swift */; };
+		156B26041F40B9840099580B /* WGNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156B26031F40B9840099580B /* WGNavigationController.swift */; };
+		156B26071F40C3700099580B /* WGProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156B26061F40C3700099580B /* WGProfileViewController.swift */; };
+		156B30D71F41F5CE0099580B /* WGLolAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156B30D61F41F5CE0099580B /* WGLolAPI.swift */; };
+		15D14E0B1F3E0E5E003EF594 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D14E0A1F3E0E5E003EF594 /* AppDelegate.swift */; };
+		15D14E121F3E0E5E003EF594 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15D14E111F3E0E5E003EF594 /* Assets.xcassets */; };
+		15D14E151F3E0E5E003EF594 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15D14E131F3E0E5E003EF594 /* LaunchScreen.storyboard */; };
+		7ED4C12EAADBEABCCF2440D6 /* Pods_LOLX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C74269DF48FA6F0CB221C6D0 /* Pods_LOLX.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		156B25FB1F40AD490099580B /* WGViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WGViewController.swift; sourceTree = "<group>"; };
+		156B25FD1F40ADD10099580B /* WGTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WGTabBarController.swift; sourceTree = "<group>"; };
+		156B26011F40B6490099580B /* WGMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WGMainViewController.swift; sourceTree = "<group>"; };
+		156B26031F40B9840099580B /* WGNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WGNavigationController.swift; sourceTree = "<group>"; };
+		156B26061F40C3700099580B /* WGProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WGProfileViewController.swift; sourceTree = "<group>"; };
+		156B30D61F41F5CE0099580B /* WGLolAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WGLolAPI.swift; sourceTree = "<group>"; };
+		15D14E071F3E0E5E003EF594 /* LOLX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LOLX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15D14E0A1F3E0E5E003EF594 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		15D14E111F3E0E5E003EF594 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15D14E141F3E0E5E003EF594 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		15D14E161F3E0E5E003EF594 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEEA47D91CFA0C7ADB2C72D8 /* Pods-LOLX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LOLX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LOLX/Pods-LOLX.debug.xcconfig"; sourceTree = "<group>"; };
+		C74269DF48FA6F0CB221C6D0 /* Pods_LOLX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LOLX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D549D9449AF07B350108BA81 /* Pods-LOLX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LOLX.release.xcconfig"; path = "Pods/Target Support Files/Pods-LOLX/Pods-LOLX.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15D14E041F3E0E5E003EF594 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ED4C12EAADBEABCCF2440D6 /* Pods_LOLX.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		156B25F01F40AD340099580B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				156B25F11F40AD340099580B /* Config */,
+				156B25F21F40AD340099580B /* Resource */,
+				156B25F31F40AD340099580B /* Src */,
+				156B25F61F40AD340099580B /* Utils */,
+				156B25FA1F40AD340099580B /* Vender */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		156B25F11F40AD340099580B /* Config */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		156B25F21F40AD340099580B /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		156B25F31F40AD340099580B /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				156B25F41F40AD340099580B /* BaseClass */,
+				156B25F51F40AD340099580B /* Main */,
+				156B26051F40C3440099580B /* Profile */,
+			);
+			path = Src;
+			sourceTree = "<group>";
+		};
+		156B25F41F40AD340099580B /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				156B25FB1F40AD490099580B /* WGViewController.swift */,
+				156B25FD1F40ADD10099580B /* WGTabBarController.swift */,
+				156B26031F40B9840099580B /* WGNavigationController.swift */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		156B25F51F40AD340099580B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				156B26011F40B6490099580B /* WGMainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		156B25F61F40AD340099580B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				156B25F71F40AD340099580B /* Category */,
+				156B25F81F40AD340099580B /* Network */,
+				156B25F91F40AD340099580B /* Tools */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		156B25F71F40AD340099580B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		156B25F81F40AD340099580B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				156B30D61F41F5CE0099580B /* WGLolAPI.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		156B25F91F40AD340099580B /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		156B25FA1F40AD340099580B /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		156B26051F40C3440099580B /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				156B26061F40C3700099580B /* WGProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		15D14DFE1F3E0E5E003EF594 = {
+			isa = PBXGroup;
+			children = (
+				15D14E091F3E0E5E003EF594 /* LOLX */,
+				15D14E081F3E0E5E003EF594 /* Products */,
+				AA23CA6C55513CAC325CA7BD /* Pods */,
+				5EDF687A98022DADC513758E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		15D14E081F3E0E5E003EF594 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15D14E071F3E0E5E003EF594 /* LOLX.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15D14E091F3E0E5E003EF594 /* LOLX */ = {
+			isa = PBXGroup;
+			children = (
+				156B25F01F40AD340099580B /* Classes */,
+				15D14E0A1F3E0E5E003EF594 /* AppDelegate.swift */,
+				15D14E111F3E0E5E003EF594 /* Assets.xcassets */,
+				15D14E131F3E0E5E003EF594 /* LaunchScreen.storyboard */,
+				15D14E161F3E0E5E003EF594 /* Info.plist */,
+			);
+			path = LOLX;
+			sourceTree = "<group>";
+		};
+		5EDF687A98022DADC513758E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C74269DF48FA6F0CB221C6D0 /* Pods_LOLX.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA23CA6C55513CAC325CA7BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AEEA47D91CFA0C7ADB2C72D8 /* Pods-LOLX.debug.xcconfig */,
+				D549D9449AF07B350108BA81 /* Pods-LOLX.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15D14E061F3E0E5E003EF594 /* LOLX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15D14E191F3E0E5E003EF594 /* Build configuration list for PBXNativeTarget "LOLX" */;
+			buildPhases = (
+				06E328D5513C21D20B91E596 /* [CP] Check Pods Manifest.lock */,
+				15D14E031F3E0E5E003EF594 /* Sources */,
+				15D14E041F3E0E5E003EF594 /* Frameworks */,
+				15D14E051F3E0E5E003EF594 /* Resources */,
+				0A04C2F275205956B1EF3ED0 /* [CP] Embed Pods Frameworks */,
+				DA741EDED853E7F60C975300 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LOLX;
+			productName = LOLX;
+			productReference = 15D14E071F3E0E5E003EF594 /* LOLX.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15D14DFF1F3E0E5E003EF594 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = com.fengxian;
+				TargetAttributes = {
+					15D14E061F3E0E5E003EF594 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ANPQ2U9D8Z;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 15D14E021F3E0E5E003EF594 /* Build configuration list for PBXProject "LOLX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15D14DFE1F3E0E5E003EF594;
+			productRefGroup = 15D14E081F3E0E5E003EF594 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15D14E061F3E0E5E003EF594 /* LOLX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15D14E051F3E0E5E003EF594 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15D14E151F3E0E5E003EF594 /* LaunchScreen.storyboard in Resources */,
+				15D14E121F3E0E5E003EF594 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06E328D5513C21D20B91E596 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0A04C2F275205956B1EF3ED0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LOLX/Pods-LOLX-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA741EDED853E7F60C975300 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LOLX/Pods-LOLX-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15D14E031F3E0E5E003EF594 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				156B30D71F41F5CE0099580B /* WGLolAPI.swift in Sources */,
+				156B26071F40C3700099580B /* WGProfileViewController.swift in Sources */,
+				156B25FE1F40ADD10099580B /* WGTabBarController.swift in Sources */,
+				156B25FC1F40AD490099580B /* WGViewController.swift in Sources */,
+				15D14E0B1F3E0E5E003EF594 /* AppDelegate.swift in Sources */,
+				156B26041F40B9840099580B /* WGNavigationController.swift in Sources */,
+				156B26021F40B6490099580B /* WGMainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		15D14E131F3E0E5E003EF594 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15D14E141F3E0E5E003EF594 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15D14E171F3E0E5E003EF594 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15D14E181F3E0E5E003EF594 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15D14E1A1F3E0E5E003EF594 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEEA47D91CFA0C7ADB2C72D8 /* Pods-LOLX.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ANPQ2U9D8Z;
+				INFOPLIST_FILE = LOLX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fengxian.LOLX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		15D14E1B1F3E0E5E003EF594 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D549D9449AF07B350108BA81 /* Pods-LOLX.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ANPQ2U9D8Z;
+				INFOPLIST_FILE = LOLX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fengxian.LOLX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15D14E021F3E0E5E003EF594 /* Build configuration list for PBXProject "LOLX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15D14E171F3E0E5E003EF594 /* Debug */,
+				15D14E181F3E0E5E003EF594 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15D14E191F3E0E5E003EF594 /* Build configuration list for PBXNativeTarget "LOLX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15D14E1A1F3E0E5E003EF594 /* Debug */,
+				15D14E1B1F3E0E5E003EF594 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15D14DFF1F3E0E5E003EF594 /* Project object */;
+}
