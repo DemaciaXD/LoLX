@@ -5,4 +5,5 @@ use_frameworks!
 target 'LOLX' do
   pod 'Alamofire', '~> 4.4'
   pod 'Moya'
+  pod 'SwiftIconFont'
 end

@@ -8,14 +8,19 @@
 
 import UIKit
 
-class WGMainViewController: WGViewController {
+class WGMainViewController: WGViewController,UITableViewDelegate {
 
+    var tableView :UITableView?
     override func viewDidLoad() {
         super.viewDidLoad()
 
         title = "首页";
         
-        loadMyHeros("RocWang丶", "网通三");
+        //loadMyHeros("RocWang丶", "网通三");
+        
+        self.view.backgroundColor = UIColor.white
+        
+        
     }
     
     fileprivate func showAlert(_ title: String, message: String) {

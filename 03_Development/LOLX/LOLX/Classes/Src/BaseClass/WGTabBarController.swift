@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SwiftIconFont
 
 class WGTabBarController: UITabBarController, UITabBarControllerDelegate {
 
@@ -20,12 +21,25 @@ class WGTabBarController: UITabBarController, UITabBarControllerDelegate {
         mainViewController.tabBarItem = UITabBarItem.init(title: "首页", image: UIImage.init(named: "home_tabbar_32x32_"), selectedImage: UIImage.init(named: "home_tabbar_press_32x32_"));
         let mainNavigationController = UINavigationController.init(rootViewController: mainViewController);
         
+        
+        
+        let videoViewController = WGProfileViewController();
+        videoViewController.tabBarItem = UITabBarItem.init();
+        videoViewController.tabBarItem.icon(from: .FontAwesome, code: "twitter", iconColor: UIColor.blue, imageSize: CGSizeFromString("20"), ofSize: 20)
+        let videoNavigationController = UINavigationController.init(rootViewController: videoViewController);
+        
+        
+        
+        let discoverViewController = WGDiscoverViewController();
+        discoverViewController.tabBarItem = UITabBarItem.init(title: "我的", image: UIImage.init(named: "mine_tabbar_32x32_"), selectedImage: UIImage.init(named: "mine_tabbar_press_32x32_"));
+        let discoverNavigationController = UINavigationController.init(rootViewController: discoverViewController);
+
         let profileViewController = WGProfileViewController();
         profileViewController.tabBarItem = UITabBarItem.init(title: "我的", image: UIImage.init(named: "mine_tabbar_32x32_"), selectedImage: UIImage.init(named: "mine_tabbar_press_32x32_"));
         let profileNavigationController = UINavigationController.init(rootViewController: profileViewController);
+
         
-        viewControllers = [mainNavigationController,
-                                             profileNavigationController];
+        viewControllers = [mainNavigationController,videoNavigationController,discoverNavigationController,profileNavigationController];
         
     }
 
