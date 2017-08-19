@@ -14,5 +14,6 @@ class WGProfileViewController: WGViewController {
         super.viewDidLoad()
         
         title = "我的";
+        view.backgroundColor = UIColor.white;
     }
 }
