@@ -15,12 +15,9 @@ class WGMainViewController: WGViewController,UITableViewDelegate {
         super.viewDidLoad()
 
         title = "首页";
-        
-        //loadMyHeros("RocWang丶", "网通三");
-        
         self.view.backgroundColor = UIColor.white
         
-        
+        loadMyHeros("RocWang丶", "网通三");
     }
     
     fileprivate func showAlert(_ title: String, message: String) {
@@ -34,8 +31,6 @@ class WGMainViewController: WGViewController,UITableViewDelegate {
         LolProvider.request(.myHeros(userName, serverName)) { result in
             do {
                 self.showAlert("GitHub Fetch", message: result.description)
-            } catch {
-                self.showAlert("GitHub Fetch", message: "faile")
             }
         }
     }

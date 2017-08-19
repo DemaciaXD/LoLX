@@ -38,7 +38,7 @@ extension LOLX: TargetType {
     public var path: String {
         switch self {
         case .myHeros(let userName, let serverName):
-            return "\(userName.urlEscaped)/serverName/\(serverName.urlEscaped)";
+            return "\(userName)/serverName/\(serverName)";
         }
     }
     public var method: Moya.Method {
@@ -47,8 +47,7 @@ extension LOLX: TargetType {
     public var parameters: [String: Any]? {
         switch self {
         case .myHeros(_, _):
-            return ["userName": "RocWang丶",
-                    "serverName": "网通三"];
+            return nil;
         }
     }
     public var parameterEncoding: ParameterEncoding {
@@ -65,8 +64,8 @@ extension LOLX: TargetType {
     }
     public var sampleData: Data {
         switch self {
-        case .myHeros(let userName, let serverName):
-            return "{\"userName\": \"\(userName)\", \"serverName\": \"\(serverName)\"".data(using: String.Encoding.utf8)!
+        case .myHeros:
+            return "Half measures are as bad as nothing at all.".data(using: String.Encoding.utf8)!;
         }
     }
     public var headers: [String: String]? {
