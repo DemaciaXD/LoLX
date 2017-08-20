@@ -17,7 +17,7 @@ class WGMainViewController: WGViewController,UITableViewDelegate {
         title = "首页";
         self.view.backgroundColor = UIColor.white
         
-        loadMyHeros("RocWang丶", "网通三");
+//        loadMyHeros("RocWang丶", "网通三");
     }
     
     fileprivate func showAlert(_ title: String, message: String) {
